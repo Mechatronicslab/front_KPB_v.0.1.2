@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kpbv20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new_kpb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_kpb_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".rut.RutDetail"></activity>
+        <activity android:name=".rut.RutEdit" />
+        <activity android:name=".rut.Rut" />
+        <activity android:name=".rut.RutAddMasaTanam" />
+        <activity android:name=".rut.RutAddAssets" />
+        <activity android:name=".rut.RutAssets" />
+        <activity
+            android:name=".signup.CheckNik"
+            android:noHistory="true" />
+        <activity
+            android:name=".signin.Signin"
+            android:noHistory="true" />
+        <activity
+            android:name=".Splash"
+            android:noHistory="true" />
+        <activity
+            android:name=".dashboard.Dashboard"
+            android:noHistory="true" />
+        <activity
+            android:name=".intro.Intro"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

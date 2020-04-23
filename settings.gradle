@@ -1,0 +1,2 @@
+rootProject.name='KPB V.2.0'
+include ':app'
