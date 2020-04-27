@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".dashboard.Dashboard">
+    tools:context=".features.dashboard.Dashboard">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,7 +77,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/ic_menu_dash" />
+                                    app:srcCompat="@drawable/ic_menu_dash" />
 
                             </LinearLayout>
 
@@ -137,7 +137,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_rut" />
+                                                app:srcCompat="@drawable/ic_rut" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -171,7 +171,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_pupuk" />
+                                                app:srcCompat="@drawable/ic_pupuk" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -205,7 +205,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_pasar_tani" />
+                                                app:srcCompat="@drawable/ic_pasar_tani" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -239,7 +239,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_keuangan" />
+                                                app:srcCompat="@drawable/ic_keuangan" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -273,7 +273,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_transaksi" />
+                                                app:srcCompat="@drawable/ic_transaksi" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -307,7 +307,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_kartu_petani" />
+                                                app:srcCompat="@drawable/ic_kartu_petani" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -342,7 +342,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/ic_kur" />
+                                                app:srcCompat="@drawable/ic_kur" />
 
                                         </androidx.cardview.widget.CardView>
 
@@ -464,7 +464,7 @@
                                                         android:layout_width="match_parent"
                                                         android:layout_height="match_parent"
                                                         android:alpha="0.7"
-                                                        android:src="@drawable/ic_beasiswa" />
+                                                        app:srcCompat="@drawable/ic_beasiswa" />
 
                                                 </LinearLayout>
 
@@ -536,7 +536,7 @@
                                                         android:layout_width="match_parent"
                                                         android:layout_height="match_parent"
                                                         android:alpha="0.7"
-                                                        android:src="@drawable/ic_portal" />
+                                                        app:srcCompat="@drawable/ic_portal" />
 
                                                 </LinearLayout>
 
@@ -613,7 +613,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/icon_png" />
+                                                app:srcCompat="@drawable/icon_png" />
 
                                         </LinearLayout>
 
@@ -670,7 +670,7 @@
                                             <ImageView
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
-                                                android:src="@drawable/icon_lampung" />
+                                                app:srcCompat="@drawable/icon_lampung" />
 
                                         </LinearLayout>
 

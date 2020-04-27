@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:weightSum="3"
-    tools:context=".rut.RutAddMasaTanam">
+    tools:context=".features.rut.RutAddMasaTanam">
 
     <include layout="@layout/toolbar_default_in" />
 

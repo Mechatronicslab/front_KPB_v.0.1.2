@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:weightSum="3"
-    tools:context=".signup.CheckNik">
+    tools:context=".features.signup.CheckNik">
 
     <include layout="@layout/toolbar_default" />
 
@@ -23,8 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/ic_check"
-            android:visibility="gone" />
+            app:srcCompat="@drawable/ic_check"
+            android:visibility="visible" />
 
         <TextView
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             android:id="@+id/nameHide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -83,7 +83,9 @@
                 android:paddingRight="25dp"
                 app:boxStrokeColor="@color/color_default_blue"
                 app:hintTextColor="@color/color_default_black"
-                app:startIconDrawable="@drawable/ic_card">
+                app:startIconDrawable="@drawable/ic_card"
+                app:endIconMode="custom"
+                app:endIconDrawable="@drawable/ic_seeker">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -169,7 +171,7 @@
                             <ImageView
                                 android:layout_width="70dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/ic_user"
+                                app:srcCompat="@drawable/ic_user"
                                 android:tint="@color/color_default_blue" />
 
                         </LinearLayout>
@@ -236,7 +238,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -387,7 +389,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -443,7 +445,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <Button
                 android:id="@+id/regist"

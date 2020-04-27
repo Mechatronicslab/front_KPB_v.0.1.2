@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_slide_a" />
+            app:srcCompat="@drawable/ic_slide_a" />
 
     </androidx.cardview.widget.CardView>
 
